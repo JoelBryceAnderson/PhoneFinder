@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Preferences"
+        android:layout="@layout/activity_settings">
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Preferences">
+    <RingtonePreference
+            android:title="Alarm tone"
+            android:key="sound"
+            android:ringtoneType="alarm|ringtone"
+            android:defaultValue="content://settings/system/alarm_alert"/>
+        <CheckBoxPreference
+            android:title="Vibrate"
+            android:key="vibrate"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="Hide app icon"
+            android:key="hide"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="About">
+            <Preference
+                android:title="About Phone Finder"
+                android:key="about">
+            </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

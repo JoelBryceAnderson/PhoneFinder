@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<wearableApp package="com.janderson.phonefinder">
+    <versionCode>5</versionCode>
+    <versionName>1.1.3</versionName>
+    <rawPathResId>wearable_app</rawPathResId>
+</wearableApp>
